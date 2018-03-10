@@ -188,3 +188,38 @@ header > ul > li > a:hover {
     transition-delay: 0.05s;
     opacity: 0;
 }
+
+/* Project Page */
+#project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: auto;
+}
+
+#post-info {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#post-info > h1 {
+    display: inline-block;
+    font-weight: normal;
+    min-width: 500px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #aaa;
+    margin: 0;
+}
+
+#post-info > p {
+    max-width: 800px;
+}
+
+#project > img + img {
+    margin-top: 32px;
+}
+
+#project > img {
+    width: 100%;
+}
