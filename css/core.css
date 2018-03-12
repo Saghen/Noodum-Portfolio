@@ -99,7 +99,7 @@ header > ul > li > a:hover {
     transition: 0.5s opacity;
 }
 
-.angled-div-left > .angled-div-text {
+.angled-div-left > div > .angled-div-text {
     left: 40%;
 }
 
@@ -126,23 +126,23 @@ header > ul > li > a:hover {
 }
 
 .angled-div:nth-child(1) > div {
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/005/573/393/large/galal-mohey-barb-18-a.jpg");
+    background-image: url("../imgs/AKS-74U.jpg");
 }
 
 .angled-div:nth-child(2) > div {
-    background-image: url("https://cdna.artstation.com/p/assets/images/images/004/720/612/large/hyunsuk-jin-npc-smith-00.jpg");
+    background-image: url("../imgs/M16A2.jpg");
 }
 
 .angled-div:nth-child(3) > div {
-    background-image: url("../imgs/KAR98K.jpg");
+    background-image: url("../imgs/M39.jpg");
 }
 
 .angled-div:nth-child(4) > div {
-    background-image: url("../imgs/AKS74U.jpg");
+    background-image: url("../imgs/P220.jpg");
 }
 
 .angled-div:nth-child(5) > div {
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/070/017/large/erik-rading-11.jpg?1480016244");
+    background-image: url("../imgs/SCAR.jpg");
 }
 
 /* Other Projects */
