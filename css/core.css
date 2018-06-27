@@ -249,6 +249,8 @@ header > ul > li > a:hover {
 @media only screen and (max-width: 800px) {
     #featured-content {
         flex-wrap: wrap;
+        width: auto;
+        height: auto;
     }
 
     .angled-div {
