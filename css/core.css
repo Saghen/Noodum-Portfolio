@@ -147,12 +147,12 @@ header > ul > li > a:hover {
 }
 
 /* Other Projects */
-#other-projects > h2 {
+.info-box > h2 {
     margin: 40px auto;
     font-weight: normal;
     text-align: center;
     width: 800px;
-    padding-bottom: 6px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #aaa;
 }
 
