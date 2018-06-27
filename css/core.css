@@ -289,4 +289,8 @@ header > ul > li > a:hover {
         top: 50%;
         transform: translateY(-50%);
     }
+
+    #about img {
+        margin: auto !important;
+    }
 }
