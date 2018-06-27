@@ -159,7 +159,7 @@ header > ul > li > a:hover {
     margin: 40px auto;
     font-weight: normal;
     text-align: center;
-    width: 800px;
+    max-width: 800px;
     padding-bottom: 15px;
     border-bottom: 1px solid #aaa;
 }
@@ -236,4 +236,21 @@ header > ul > li > a:hover {
 
 #project > img {
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #featured-content {
+        flex-wrap: wrap;
+    }
+
+    .angled-div {
+        width: 100%;
+        height: auto;
+        clip-path: none;
+        margin-left: auto;
+    }
+
+    .other-projects-row {
+        flex-wrap: wrap;
+    }
 }
