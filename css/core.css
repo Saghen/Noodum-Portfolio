@@ -224,7 +224,7 @@ header > ul > li > a:hover {
     max-width: 500px;
     padding-bottom: 6px;
     border-bottom: 1px solid #aaa;
-    margin: 0;
+    margin: auto;
 }
 
 #post-info > p {
