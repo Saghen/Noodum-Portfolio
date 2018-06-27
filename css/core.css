@@ -219,9 +219,9 @@ header > ul > li > a:hover {
 }
 
 #post-info > h1 {
-    display: inline-block;
+    display: block;
     font-weight: normal;
-    min-width: 500px;
+    max-width: 500px;
     padding-bottom: 6px;
     border-bottom: 1px solid #aaa;
     margin: 0;
@@ -229,6 +229,8 @@ header > ul > li > a:hover {
 
 #post-info > p {
     max-width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #project > img + img, #project > * + embed {
@@ -253,5 +255,13 @@ header > ul > li > a:hover {
 
     .other-projects-row {
         flex-wrap: wrap;
+    }
+
+    #project > img + img, #project > * + embed {
+        margin-top: 16px;
+    }
+
+    #profile-info > div {
+        display: none;
     }
 }
