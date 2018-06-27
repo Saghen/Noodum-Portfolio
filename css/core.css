@@ -155,7 +155,7 @@ header > ul > li > a:hover {
 }
 
 /* Other Projects */
-.info-box > h2 {
+.info-box h2 {
     margin: 40px auto;
     font-weight: normal;
     text-align: center;
@@ -241,6 +241,11 @@ header > ul > li > a:hover {
     width: 100%;
 }
 
+#about > div {
+    display: flex; 
+    align-items: center;
+}
+
 @media only screen and (max-width: 800px) {
     #featured-content {
         flex-wrap: wrap;
@@ -263,5 +268,13 @@ header > ul > li > a:hover {
 
     #profile-info > div {
         display: none;
+    }
+
+    #about > div {
+        flex-direction: column;
+    }
+
+    .info-box h2 {
+        margin: 20px auto;
     }
 }
