@@ -25,13 +25,14 @@ header {
 
 header > ul {
     display: flex;
-    justify-content: space-between;
-    max-width: 280px;
-    width: 100%;
 }
 
 header > ul > li {
     list-style-type: none;
+}
+
+header > ul > li + li {
+    margin-left: 25px;
 }
 
 header > ul > li > a {
@@ -99,7 +100,7 @@ header > ul > li > a:hover {
     transition: 0.5s opacity;
 }
 
-.angled-div-left > div > .angled-div-text {
+.angled-div:nth-child(1) > div > .angled-div-text {
     left: 40%;
 }
 
@@ -126,23 +127,23 @@ header > ul > li > a:hover {
 }
 
 .angled-div:nth-child(1) > div {
-    background-image: url("../imgs/AKS-74U.jpg");
+    background-image: url("../imgs/AKS-74u.png");
 }
 
 .angled-div:nth-child(2) > div {
-    background-image: url("../imgs/M16A2.jpg");
+    background-image: url("../imgs/SCAR\ Mk\ 20.png");
 }
 
 .angled-div:nth-child(3) > div {
-    background-image: url("../imgs/M39.jpg");
+    background-image: url("../imgs/M16A2.png");
 }
 
 .angled-div:nth-child(4) > div {
-    background-image: url("../imgs/P220.jpg");
+    background-image: url("../imgs/Benelli\ M1014.png");
 }
 
 .angled-div:nth-child(5) > div {
-    background-image: url("../imgs/SCAR.jpg");
+    background-image: url("../imgs/FN\ FAL.png");
 }
 
 /* Other Projects */
@@ -163,7 +164,6 @@ header > ul > li > a:hover {
 
 .other-projects-row > a {
     position: relative;
-    width: 25%;
 }
 
 .other-projects-row > a:hover > img {
@@ -222,7 +222,7 @@ header > ul > li > a:hover {
     max-width: 800px;
 }
 
-#project > img + img {
+#project > img + img, #project > * + embed {
     margin-top: 32px;
 }
 
