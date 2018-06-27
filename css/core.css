@@ -253,7 +253,7 @@ header > ul > li > a:hover {
 
     .angled-div {
         width: 100%;
-        height: auto;
+        height: 400px;
         clip-path: none;
         margin-left: auto;
     }
@@ -279,8 +279,6 @@ header > ul > li > a:hover {
     }
 
     .angled-div:nth-child(1) > div > .angled-div-text {
-        bottom: 20px;
-        top: auto;
         left: 30%;
     }
 
