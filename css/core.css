@@ -215,6 +215,7 @@ header > ul > li > a:hover {
 #post-info {
     margin: 30px 0;
     text-align: center;
+    line-height: 2em;
 }
 
 #post-info > h1 {
