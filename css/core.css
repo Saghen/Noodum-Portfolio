@@ -241,7 +241,7 @@ header > ul > li > a:hover {
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     #featured-content {
         flex-wrap: wrap;
     }
